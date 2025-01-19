@@ -15,7 +15,7 @@ body {
 .container-heading {
   position: relative;
 }
-
+/* navigation content starts from here */
 nav {
   display: flex;
   width: 100%;
@@ -61,7 +61,7 @@ nav h1 img {
   margin-left: 35px;
 }
 
-/* <!-- heading content were completed --> */
+/* <!-- navigation content were completed --> */
 
 /* <!-- main content were start from here --> */
 
@@ -428,6 +428,9 @@ h4 {
   transition: 0.5s ease-in;
   background-color: rgba(255, 255, 255, 0.018);
   border: 1px solid #141618;
+  border: none;
+  border-radius: 10px;
+
 }
 .tamilarasanTest-2 {
   position: relative;
@@ -482,6 +485,9 @@ h4 {
   transition: 0.5s ease-in;
   background-color: rgba(255, 255, 255, 0.018);
   border: 1px solid #141618;
+  border: none;
+  border-radius: 10px;
+
 }
 
 .babithaTest-3 {
@@ -537,6 +543,9 @@ h4 {
   transition: 0.5s ease-in;
   background-color: rgba(255, 255, 255, 0.018);
   border: 1px solid #141618;
+  border: none;
+  border-radius: 10px;
+
 }
 
 .charlesTest-4 {
@@ -592,6 +601,9 @@ h4 {
   transition: 0.5s ease-in;
   background-color: rgba(255, 255, 255, 0.018);
   border: 1px solid #141618;
+  border: none;
+  border-radius: 10px;
+/*  */
 }
 /* <!-- terminal page ends from here --> */
 /* the contact-section start from here  */

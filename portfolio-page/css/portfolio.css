@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght,GRAD@1,8..144,500,24&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght,GRAD@1,8..144,500,24&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #212428;
+}
+
+/* navigation content starts from here */
+nav {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  top: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 6rem;
+  padding-top: 10px;
+  margin-top: -20px;
+  opacity: 0.85;
+  background-color: #212428;
+  box-shadow: 0px 0px 12px 12px rgba(255, 255, 255, 0.04);
+}
+nav h1 img {
+  width: 20rem;
+  padding: 10px;
+}
+ul {
+  display: flex;
+  align-items: center;
+  margin-left: 43.5rem;
+  margin-right: 12rex;
+  padding: 12px;
+}
+
+ul li {
+  margin-left: 0.9rem;
+  display: flex;
+}
+
+ul li a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Poppins", serif;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+  transition: 0.1s;
+}
+
+ul li a:hover {
+  color: #a2a8b4;
+}
+/* <!-- navigation content were completed --> */
+
+/* hero section starts from here */
+.hero-section {
+  border: 1px solid black;
+  margin-top: 10rem;
+  text-align: center;
+  padding: 10px;
+}
+
+/* .hero-section p {
+  color: #f9004d;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-family: "montserrat", sans-serif;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  padding-top: 10px;
+}
+.hero-section h1 {
+  font-size: 70px;
+  text-transform: capitalize;
+  color: #c4cfde;
+  font-family: "montserrat", sans-serif;
+}
+.image-portfolio{
+    border: 2px solid red;
+}
+
+.wedding img{
+    width: 20px;
+} */
